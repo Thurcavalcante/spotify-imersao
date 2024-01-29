@@ -36,7 +36,7 @@
     width: 32px;
     height: 32px;
     background: var(--bg-icon);
-    background-color:var(--bg-arrow-color);
+    background-color: var(--bg-arrow-color);
     border-radius: 50%;
     border: none;
     cursor: pointer;
@@ -68,7 +68,7 @@
     background: transparent;
     border: none;
     padding: 0px 100px 0 12px;
-    color: #fff;
+    color: var(--text-base-light);
     text-overflow: ellipsis;
     overflow:hidden;
     white-space: nowrap;
@@ -76,7 +76,7 @@
   }
   
   .header__login .subscribe {
-    color: #a7a7a7;
+    color: var(--text-sub);
     font-size: 16px;
     font-weight: 700;
     background-color: transparent;
@@ -86,7 +86,7 @@
   .header__login .login {
     width: 100px;
     height: 48px;
-    color: #000;
+    color: var(--text-base-dark);
     font-size: 16px;
     font-weight: 700;
     border-radius: 40px;
